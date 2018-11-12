@@ -1,0 +1,30 @@
+.products
+{
+
+
+    border: 1px solid #333;
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding:16px;
+    margin-bottom: 20px;
+    margin-top:20px;
+	margin-left: 20px;
+	/*width: 250px; */
+}
+ropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+/* .scrolling-wrapper {
+  display: flex;
+  overflow-x: scroll;
+} */
+
+.dropdown:hover .fa-angle-down,
+.dropdown .fa-angle-up{
+	display: none;
+}
+
+.dropdown:hover .fa-angle-up{
+	display: inline;
+}
