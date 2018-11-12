@@ -1,0 +1,267 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+        border: none;
+        margin: 15px 0;
+        padding: 12px 13px;
+    }
+
+    .navbar-default .navbar-toggle:focus, 
+    .navbar-default .navbar-toggle:hover {
+        background-color: #273040; 
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+   
+    .navbar .navbar-nav li a {
+        padding: 15px 30;
+    }
+
+    .navbar-nav li a:last-of-type {
+        padding-right: 15px;
+    }
+
+    .navbar .navbar-nav li a:hover:after { 
+        width: unset;
+    }
+
+    .navbar-brand {
+        margin-top: 12px;
+    }
+
+    h2 {
+        margin-top: 90px;
+    }
+
+    #home {
+        height: 80%;
+    }
+
+    .hero_content {
+        padding: 200px 0;
+    }
+
+    .b_content_bottom {
+        margin-top: 0;
+    }
+
+    .b_content {
+        margin-top: 30px;
+    }
+
+    #feature1 h3 {
+        margin-top: 90px;
+    }
+
+    #feature2 {
+        height: 480px;
+    }
+
+    #feature2 .car_2 {
+        display: none;
+    }
+
+    .service_block {
+        margin-bottom: 30px;
+    }
+
+    .service_bottom {
+        margin-top: 0;
+    }
+
+    .partner {
+        display: inline-block;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    .form-group,
+    #contact button {
+        width: 100%;
+    }
+}
+
+/*Small Devices */
+@media only screen and (max-width : 992px) {
+    .navbar-collapse.collapse,
+    .navbar-collapse.collapse.in,
+    .navbar-collapse.collapsing {
+        border-top: none;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 20px;
+    }
+
+    .navbar-header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-fixed-bottom .navbar-collapse, 
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 320px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .lead {
+        font-size: 18px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    body {
+        text-align: center;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        padding: 15px 40px;
+        margin: 20px 0 0;
+    }
+
+    .btn-default {
+        padding: 15px 40px;
+        margin-top: 20px;
+        margin-left: 0;
+        display: block;
+    }
+
+    #home {
+        height: 70%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .lead {
+        display: none;
+    }
+
+    .hero_content {
+        padding: 120px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 30px !important;
+        line-height: 45px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .car_1 {
+        height: unset;
+        margin-top: 40px;
+    }
+
+    hr {
+        margin-bottom: 60px;
+    }
+
+    #benefits img {
+        float: none !important;
+        margin-bottom: 20px;
+    }
+
+    .b_text {
+        margin-left: 0;
+    }
+
+    #return-to-top span {
+        left: 0;
+    }
+
+    #feature1 h3 {
+        margin-top: 60px;
+    }
+
+    #feature2 {
+        margin-top: 60px;
+        height: 520px;
+    }
+
+    .service_block {
+        padding: 35px 25px;
+        text-align: center;
+    }
+
+    #subscribe {
+        padding-bottom: 60px;
+    }
+
+    #subscribe h2 {
+        margin-top: 60px;
+    }
+
+    #subscribe input {
+        width: 100%;
+        height: 50px;
+        padding-left: 75px;
+    }
+
+    #clients {
+        padding-bottom: 60px;
+    }
+
+    .carousel {
+        margin-top: 50px;
+    }
+
+    .c_text {
+        padding: 80px 25px;
+    }
+
+    .c_name {
+        margin-bottom: 0;
+    }
+
+    #partners {
+        margin-bottom: 60px;
+    }
+
+    #contact {
+        padding: 60px 0;
+    }
+
+    .media_wrap {
+        text-align: left;
+    }
+}
